@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Brian Thai
+EMAIL: bhthai1@uci.edu
+-->
+
+<head>
+  <meta charset="utf-8">
+  <!--Required for Bootstrap-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Brian Thai"> 
+  <meta name="description" content="My portfolio's project page for in4matx 133">
+  <!-- you would link to an external stylesheet here! -->
+  <!-- you would also link to Bootstrap here! -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="index.css">
+  <title>Brian Thai's Portfolio</title>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <div class="container">
+    <div class="row" id="navigation">
+      <nav class="col-4" id="icons">
+        <a href="https://www.linkedin.com/in/brian-thai-aa59421a6" target="_blank"><span class="material-icons">work</span></a>
+        <a href="mailto:brianthai0@gmail.com"><span class="material-icons">email</span></a>
+      </nav>
+      <nav class="col-8">
+        <a href="./index.html">About</a>
+        <a href="./projects.html">Projects</a>
+        <a href="https://drive.google.com/file/d/1lbqp7l2Y1bIH9SSFg51aoTWIePBpRbnz/view?usp=sharing" target="_blank">Resume</a>
+      </nav>
+    </div>
+  </div>
+  <!-- Projects -->
+  <div class="container">
+    <!-- Project Names 1 -->
+    <div class="row">
+      <h2 class="col-12 col-lg-6">Web Crawler</h2>
+      <h2 class="d-none d-lg-block col-lg-6">Weather Data Mining</h2>
+    </div>
+    <!-- Project Images 1 -->
+    <div class="row">
+      <div class="col-12 col-lg-6 image">
+        <img class="project" src="./search.jpeg" alt="Google Search Engine">
+        <div class="overlay">
+          <p class="description">
+            Created web crawler to crawl UCI CS websites and then created a search engine for those websites.
+            Worked in a group with 3 other students using Python.
+          </p>
+        </div>
+      </div>
+      <h2 class="d-lg-none col-12">Weather Data Mining</h2>
+      <div class="col-12 col-lg-6 image">
+        <img class="project" src="./datamining.jpeg" alt="People figuratively data mining">
+        <div class="overlay">
+          <p class="description">
+            Classified weather data with machine learning algorithms such as random forrest and neural networks
+            to predict rainfall. Worked in a group with 2 other students using Python.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Project Names 2 -->
+    <div class="row">
+      <h2 class="col-12 col-lg-6">Othello AI</h2>
+      <h2 class="d-none d-lg-block col-lg-6">Minesweeper AI</h2>
+    </div>
+    <!-- Project Images 2 -->
+    <div class="row">
+      <div class="col-12 col-lg-6 image">
+        <img class="project" src="./othello.jpeg" alt="Someone playing Othello">
+        <div class="overlay">
+          <p class="description">
+            Created a simple AI that used Monte Carlo tree search to play Othello against other students' AI.
+            The AI was coded in Python.
+          </p>
+        </div>
+      </div>
+      <h2 class="d-lg-none col-12">Minesweeper AI</h2>
+      <div class="col-12 col-lg-6 image">
+        <img class="project" src="./minesweeper.jpeg" alt="Completed Minesweeper Game">
+        <div class="overlay">
+          <p class="description">
+            Created another simple AI that used heuristics to play minesweeper. The agent was able to solve boards from 8x8
+            to 16x30. The AI was coded in C++.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

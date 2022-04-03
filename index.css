@@ -1,0 +1,85 @@
+#navigation {
+    padding-bottom: 3%;
+}
+#icons {
+    text-align: left;
+}
+nav {
+    padding-top: 3%;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: right;
+}
+#navigation a {
+    color: #D95D64;
+    font-size: 15px;
+    padding: 0px 2%;
+    text-decoration: none;
+}
+#icons a {
+    padding: 0px 4%;
+}
+#navigation a:hover {
+    color: #933456;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #D95D64;
+    font-weight: bold;
+}
+body {
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+}
+ul {
+    list-style-position: inside;
+}
+#course1 {
+    padding: 0;
+}
+#portrait {
+    padding-bottom: 6%;
+    height: 50%;
+}
+.image {
+    position: relative;
+}
+.project {
+    display: block;
+    width: 100%;
+    padding-bottom: 7%;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 1.9%;
+    width: 96.3%;
+    height: 88.3%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.50s;
+}
+.description {
+    font-size: 1.2em;
+    transform: translateY(20px);
+    transition: 0.50s;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.overlay:hover{
+    opacity: 1;
+    background: #D95D64;
+}
+.overlay:hover .description {
+    transform: translateY(0px);
+}
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 90%;
+}
